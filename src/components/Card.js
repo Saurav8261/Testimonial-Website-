@@ -6,7 +6,7 @@ import {FaQuoteLeft,FaQuoteRight} from 'react-icons/fa';
     let reveiw=props.reveiw;
   return (
     <div className='flex flex-col md:relative'>
-        <div className='absolute top-[-7rem] z-[10] mx-auto'>
+        <div className='absolute top-[-6rem] z-[10] mx-auto'>
             <img 
             className='aspect-square rounded-full w-[140px] h-[140px] z-10'
             src={reveiw.image}/>
